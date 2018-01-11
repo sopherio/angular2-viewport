@@ -4,6 +4,12 @@ import { noop } from "lodash";
 
 import { throttler } from "./throttler";
 
+import 'rxjs/add/observable/of';
+import 'rxjs/add/observable/timer';
+import 'rxjs/add/operator/takeUntil';
+import 'rxjs/add/operator/single';
+
+
 describe('Function: throttler', () => {
 	it('should be defined as a function', () => {
 		expect(throttler instanceof Function).toBe(true);

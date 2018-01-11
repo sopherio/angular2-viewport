@@ -4,6 +4,10 @@ import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
 
 import { ScrollService } from "./scroll.service";
+import 'rxjs/add/operator/first';
+import 'rxjs/add/operator/take';
+import 'rxjs/add/operator/skip';
+import 'rxjs/add/observable/interval';
 
 describe("Service: ScrollService", () => {
 	let subsArr:Subscription[];
