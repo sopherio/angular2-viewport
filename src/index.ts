@@ -1,3 +1,3 @@
-export * from './directives';
-export * from './services';
+export * from './directives/index';
+export * from './services/index';
 export * from './viewport.module';

@@ -1,8 +1,8 @@
 import { Directive, ElementRef, Output, Input, EventEmitter } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Subscription } from 'rxjs/Subscription';
 import { defer, forEach } from 'lodash';
 
-import { TriggerService } from '../services';
+import { TriggerService } from '../services/index';
 
 const SELECTOR = 'vp-in-view';
 

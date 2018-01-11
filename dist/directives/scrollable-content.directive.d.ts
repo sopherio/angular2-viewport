@@ -1,5 +1,5 @@
 import { ElementRef } from '@angular/core';
-import { ScrollService } from '../services';
+import { ScrollService } from '../services/index';
 export declare class ScrollableContentDirective {
     private el;
     private scroll;

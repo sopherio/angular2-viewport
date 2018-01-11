@@ -1,4 +1,5 @@
-import { Observable, Subject } from 'rxjs';
+import { Subject } from 'rxjs/Subject';
+import { Observable } from 'rxjs/Observable';
 
 export function throttler<T>(observable: Observable<T>, throttleTime: number):Observable<T> {
 	const subj: Subject<T> = new Subject();

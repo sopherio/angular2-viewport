@@ -1,7 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Subject, Observable } from 'rxjs';
+import { Subject } from 'rxjs/Subject';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/throttleTime';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/debounceTime';
 
-import { throttler } from '../utils';
+import { throttler } from '../utils/index';
 
 const BUFFER_TIME = 100;
 const DEBOUNCE_TIME = 180;

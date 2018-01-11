@@ -1,5 +1,7 @@
 import { TestBed, inject } from '@angular/core/testing';
-import { Subject, Observable, Subscription } from 'rxjs';
+import { Subject } from 'rxjs/Subject';
+import { Observable } from 'rxjs/Observable';
+import { Subscription } from 'rxjs/Subscription';
 
 import { ScrollService } from "./scroll.service";
 

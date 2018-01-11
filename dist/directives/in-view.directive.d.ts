@@ -1,5 +1,5 @@
 import { ElementRef, EventEmitter } from '@angular/core';
-import { TriggerService } from '../services';
+import { TriggerService } from '../services/index';
 export interface IConfig {
     infinite?: boolean;
     margin?: number;

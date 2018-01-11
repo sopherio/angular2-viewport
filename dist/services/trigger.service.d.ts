@@ -1,4 +1,5 @@
-import { Observable, Subscription } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import { Subscription } from 'rxjs/Subscription';
 import { ScrollService } from './scroll.service';
 export declare class TriggerService {
     private _subj;

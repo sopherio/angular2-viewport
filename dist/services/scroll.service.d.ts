@@ -1,4 +1,7 @@
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/throttleTime';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/debounceTime';
 export declare class ScrollService {
     private _subj;
     private boundSet;

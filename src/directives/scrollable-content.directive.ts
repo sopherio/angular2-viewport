@@ -1,6 +1,6 @@
 import { Directive, ElementRef, Input } from '@angular/core';
 
-import { ScrollService } from '../services';
+import { ScrollService } from '../services/index';
 
 @Directive({
 	selector: '[vp-scrollable-content]'

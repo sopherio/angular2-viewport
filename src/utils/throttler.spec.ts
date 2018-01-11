@@ -1,5 +1,5 @@
 import {} from "jasmine";
-import { Observable } from "rxjs";
+import { Observable } from "rxjs/Observable";
 import { noop } from "lodash";
 
 import { throttler } from "./throttler";
